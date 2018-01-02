@@ -7,7 +7,8 @@ This is a temporary script file.
 
 import os
 os.getcwd()
-os.chdir('C:\\Users\\Anesthesia\\Documents\\Research\\Cardiovascular\\PHN\\SVR Trial\\SVR Data')
+#os.chdir('C:\\Users\\Anesthesia\\Documents\\Research\\Cardiovascular\\PHN\\SVR Trial\\SVR Data')
+os.chdir('/Users/ajalali1/Documents/PHN/SVR/Code_Repo/SVR_Data')
 
 import pandas as pd
 import numpy as np
@@ -15,9 +16,26 @@ from functools import reduce
 
 
 def stat_measure(a):
+    df1=pd.DataFrame(np.random.randint(low=1,size=(1,3)),columns=['SBP','DBP','MBP'])
+    df2=pd.DataFrame(np.random.randint(low=1,size=(1,3)),columns=['SBP','DBP','MBP'])
+    df3=pd.DataFrame(np.random.randint(low=1,size=(1,3)),columns=['SBP','DBP','MBP'])
     b=np.unique(a.index)
-    for val in a:
-        kl[val,:]=np.mean(r300.loc[val,['SBP','DBP','MBP']])
+    for val in b:
+        kl1=np.mean(a.loc[val,['SBP','DBP','MBP']])
+        kl2=np.min(a.loc[val,['SBP','DBP','MBP']])
+        kl3=np.max(a.loc[val,['SBP','DBP','MBP']])
+        df1.loc[val]=kl1
+        df2.loc[val]=kl2
+        df3.loc[val]=kl3
+        
+    df1.columns=['mean_SBP','mean_DBP','mean_MBP']
+    df2.columns=['min_SBP','min_DBP','min_MBP']
+    df3.columns=['max_SBP','max_DBP','max_MBP']
+    df=pd.concat([df1,df2,df3],axis=1)
+    df.drop([0],axis=0)
+    
+    return df
+        
 
 # Reading .csv files
 
@@ -29,7 +47,7 @@ r105= pd.read_csv('105_post_stage2_history.csv', index_col='blind_id')
 r106= pd.read_csv('106_clinic_genetic_evaluation.csv', index_col='blind_id')
 r107= pd.read_csv('107_cardiac_catheterization_measure.csv', index_col='blind_id')
 #r108= pd.read_csv('108_primary_outcome.csv', index_col='blind_id')
-r109= pd.read_csv('109_obser_patient_medical_history.csv', index_col='blind_id')
+#r109= pd.read_csv('109_obser_patient_medical_history.csv', index_col='blind_id')
 r113= pd.read_csv('113_functional_status_ii.csv', index_col='blind_id')
 r114= pd.read_csv('114_bayley_scoring_summary.csv', index_col='blind_id')
 r144= pd.read_csv('144_socioeconomic_status.csv', index_col='blind_id')
@@ -223,7 +241,7 @@ tab2=tab1.merge(r103,left_index=True,right_index=True,sort=True)
 tab3=pd.concat([tab2,r104,r105],axis=1)
 #tab4=tab3.merge(r106,left_index=True,right_index=True,sort=True)
 tab4=pd.concat([tab3,r107,r113],axis=1)
-a=np.intersect1d(tab4.index,r109.index)
+#a=np.intersect1d(tab4.index,r109.index)
 # R109 has just 1 patient overlapping the main study dataset. So we will ignore r109
 
 tab5=pd.concat([tab4,r114],axis=1)
@@ -236,6 +254,10 @@ r331=r331.drop(455)
 tab7=pd.concat([tab6,r331],axis=1)
 #reduce(np.union1d, (tab3.index,r107.index,r109.index,r113.index,r114.index))
 tab8=pd.concat([tab7,r340,rkey],axis=1)
+
+tab9=stat_measure(r300)
+tab10=tab8.merge(tab9,left_index=True,right_index=True,sort=True)
+
 
 
 
