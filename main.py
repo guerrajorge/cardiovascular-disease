@@ -39,14 +39,17 @@ def main():
 
     dataset = load_data()
 
+    # assoadx and stg2cod are weird variable - need to figure out if it is relevant
+    dataset = dataset.drop(['assoadx', 'stg2cod'], axis=1)
+
     # encode class values as integers
     encoder = LabelEncoder()
     for key in dataset.keys():
+        # masking the NaN values as null
+        dataset[key] = dataset[key].factorize()[0]
+
         if is_string_dtype(dataset[key]):
             dataset[key] = encoder.fit_transform(dataset[key])
-
-    # assoadx and stg2cod are weird variable - need to figure out if it is relevant
-    dataset = dataset.drop(['assoadx', 'stg2cod'], axis=1)
 
     dataset.fillna(0, inplace=True)
 
@@ -73,7 +76,8 @@ def main():
     :return: NN model
     """
     model = Sequential()
-    model.add(Dense(12, input_dim=8, activation='relu'))
+    model.add(Dense(70, input_dim=151, activation='relu'))
+    model.add(Dense(70, activation='relu'))
     model.add(Dense(8, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
 
