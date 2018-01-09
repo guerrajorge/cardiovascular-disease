@@ -1,0 +1,255 @@
+blind_id,VISIT,r202_AGE,WDRAW_AGE,STATUS,LASTVIS,LAST_AGE,OBSERV,WDRAW_R,WDRAW_S,R202COMM
+481,0,58,57,,1:visit 1(Norwood),30,,4:patient death,-2,-1
+753,0,743,161,,-1:Never Randomized,,1,4:patient death,-2,PATIENT DIED DATA ENTERED AT THE REQUEST OF JL
+671,0,41,38,1,1:visit 1(Norwood),38,-2,1:Family withdrew patient from trial,-2,parents ready to consent for medical record review only
+671,0,1226,76,2,1:visit 1(Norwood),38,-2,4:patient death,-2,"Pt was randomized, withdrawn and died later."
+189,0,40,33,,0:Baseline,32,,4:patient death,-2,None
+398,0,52,50,,1:visit 1(Norwood),30,,4:patient death,-2,-1
+809,0,52,48,,1:visit 1(Norwood),48,2,4:patient death,-2,none
+769,0,73,30,,1:visit 1(Norwood),29,2,4:patient death,-2,NONE
+775,0,47,32,,1:visit 1(Norwood),31,2,4:patient death,-2,NONE
+630,0,561,542,2,-1:Never Randomized,,-2,4:patient death,-2,Patient died on **/**/****
+502,0,1118,835,2,-1:Never Randomized,,-2,4:patient death,-2,None
+223,0,206,206,1,2:visit 2 (stage II),205,-2,4:patient death,-2,none
+562,0,237,229,2,-1:Never Randomized,,-2,4:patient death,-2,
+759,0,257,117,,1:visit 1(Norwood),117,,4:patient death,-2,DEATH DUE TO PROGRESSIVE PULMONARY VEIN STENOSIS AND PULMONARY HYPERTENSION.
+315,0,39,38,,1:visit 1(Norwood),38,,4:patient death,-2,PATIENT DIED IN THE ICU. HE WAS NEVER DISCHARGED AFTER THE STAGE I SURGERY.
+902,0,109,22,,1:visit 1(Norwood),22,,4:patient death,-2,PATIENTS CARE WAS REDIRECTED ON **/**/****. PATIENT PASSED AWAY ON **/**/****.
+339,0,38,37,,1:visit 1(Norwood),37,,4:patient death,-2,PATIENT WITHDRAWN FROM SUPPORT ON **/**/**** AND SUBSEQUENTLY PASSED AWAY.
+81,0,30,27,,1:visit 1(Norwood),16,,4:patient death,-2,-1
+167,0,65,37,,1:visit 1(Norwood),18,,4:patient death,-2,-1
+235,0,35,34,,1:visit 1(Norwood),34,,4:patient death,-2,"PATIENT TRANSFERRED TO OUTSIDE FACILITY ON **/**/****, 20 DAYS AFTER STAGE 1 NORWOOD SURGERY. PATIENT SUDDENLY ARRESTED AND DIED ON **/**/**** AT OSH."
+544,0,9,4,,1:visit 1(Norwood),4,,4:patient death,-2,PATIENT DIED DURING STAGE I PROCEDURE (SEE R200 FOR DETAILS)
+524,0,389,192,,2:visit 2 (stage II),192,2,4:patient death,-2,PATIENT PASSED AWAY IN OR ON **/**/****.
+801,0,709,707,1,4:visit 4 (14 months),414,-2,4:patient death,-2,-1
+575,0,314,297,,2:visit 2 (stage II),297,2,4:patient death,-2,PATIENT DIED ON **/**/****.
+55,0,66,61,,1:visit 1(Norwood),61,2,4:patient death,-2,-1
+771,0,434,434,1,1:visit 1(Norwood),170,2,3:Patient lost to follow-up,-2,MANY ATTEMPTS BY STUDY NURSE AND COORDINATOR TO REACH FAMILY-FAMILY UNRESPONSIVE.
+858,0,293,10,,-1:Never Randomized,10,1,4:patient death,-2,WAIVER OF CONSENT
+782,0,52,7,,1:visit 1(Norwood),7,2,4:patient death,-2,-1
+25,0,225,136,,1:visit 1(Norwood),136,2,4:patient death,-2,PATIENT PASSED AWAY **/**/****
+70,0,58,47,,1:visit 1(Norwood),15,2,4:patient death,-2,-1
+648,0,404,66,1,1:visit 1(Norwood),66,-2,4:patient death,-2,PATIENT DECEASED **/**/****
+878,0,126,38,1,1:visit 1(Norwood),25,2,4:patient death,-2,PATIENT DECEASED **/**/****
+892,0,90,89,1,2:visit 2 (stage II),88,2,4:patient death,-2,-1
+625,0,29,28,1,1:visit 1(Norwood),26,2,4:patient death,-2,PATIENT WITHDRAWN FROM SUPPORT **/**/****
+401,0,33,31,,0:Baseline,31,,4:patient death,-2,Expired after aortic arch reconstruction/PA band.  Did not have a Norwood.
+377,0,490,489,,3:visit 3 (12 months),372,2,4:patient death,-2,none
+774,0,441,127,,-1:Never Randomized,127,2,4:patient death,-2,none
+3,0,398,11,,-1:Never Randomized,11,2,4:patient death,-2,none
+248,0,158,12,,0:Baseline,12,,4:patient death,-2,none
+337,0,76,7,,1:visit 1(Norwood),7,,4:patient death,-2,none
+684,0,347,150,,-1:Never Randomized,150,2,4:patient death,-2,none
+675,0,159,155,,2:visit 2 (stage II),153,2,4:patient death,-2,cardiac arrest post op BDG
+530,0,11,6,,1:visit 1(Norwood),6,2,4:patient death,-2,none
+407,0,393,207,,-1:Never Randomized,207,2,4:patient death,-2,death immed after OHT
+576,0,17,14,,1:visit 1(Norwood),14,2,4:patient death,-2,none
+814,0,594,482,1,3:visit 3 (12 months),399,2,1:Family withdrew patient from trial,-2,"Multiple attempts to schedule visit.  Mom refused, referred to husband who angrily stated his child was not and never had been in study and hung up."
+784,0,308,185,1,2:visit 2 (stage II),140,2,4:patient death,-2,N/A
+200,0,6,5,,1:visit 1(Norwood),5,2,4:patient death,-2,died immediately post op after norwood
+276,0,242,240,1,1:visit 1(Norwood),112,2,4:patient death,-2,Pt admitted in Feb for resp distress.  Continued with resp issues. Discharged home **/**/****. Glenn scheduled **/**/****. Died at home **/**/****.
+898,0,225,103,1,1:visit 1(Norwood),16,2,4:patient death,-2,Patient cathed at other hospital on **/**/**** due to desaturations and scheduled for Glenn procedure **/**/****.  Baby died at home on **/**/****.
+325,0,162,8,1,0:Baseline,8,2,4:patient death,-2,Patient died shortly after Norwood procedure.
+93,0,371,38,2,-1:Never Randomized,,-2,4:patient death,-2,-1
+122,0,106,101,1,2:visit 2 (stage II),101,-2,4:patient death,-2,Baby died in hospital post Glenn and pacemaker insertion.
+683,0,10,9,1,0:Baseline,9,2,1:Family withdrew patient from trial,-2,Mom consented w/o dad. Dad angry; refused particp.  The sub. was rand. to MBTS but received SANO on **/**/****.  Unable to get more data due to w/d.
+71,0,11,3,1,1:visit 1(Norwood),3,2,4:patient death,-2,Baby died post Norwood.
+444,0,52,47,2,-2,,-2,4:patient death,-2,"Baby had cardiac arrest at home. Thrombus in PA at site of anastomosis, per autopsy.Also with e.faecalis in lungs and blood."
+431,0,272,125,,1:visit 1(Norwood),125,,4:patient death,-2,Patient died at an OSH for an ER visit for diarrhea.  Pt had cardiac arrest and CPR was done but not successful.
+540,0,241,237,,2:visit 2 (stage II),237,,4:patient death,-2,PATIENT WAS WITHDRAWN FROM VENTILATORY SUPPORT DUE TO ISCHEMIC BRAIN DAMAGE.
+526,0,1412,835,1,4:visit 4 (14 months),410,-2,4:patient death,-2,Previous SC did not withdrawl patient from study after death occurred. CRF 200 and 201 are being filled out and will be sent once signed by PI.
+616,0,52,10,,1:visit 1(Norwood),10,,4:patient death,-2,-1
+447,0,729,24,,-1:Never Randomized,24,1,4:patient death,-2,none
+367,0,161,58,,1:visit 1(Norwood),58,,4:patient death,-2,Patient was withdrawn from support
+320,0,701,171,,-1:Never Randomized,171,1,4:patient death,-2,none
+433,0,664,401,,2:visit 2 (stage II),214,2,3:Patient lost to follow-up,-2,called patient multiple times for 12 month info. Parents never replied
+528,0,2145,381,1,3:visit 3 (12 months),381,-2,3:Patient lost to follow-up,-2,patient lost to follow up
+847,0,632,450,,2:visit 2 (stage II),245,2,3:Patient lost to follow-up,-2,called patient multiple times for 12 month info.  Parents never replied
+289,0,626,25,,-1:Never Randomized,25,1,4:patient death,-2,none
+606,0,199,197,,1:visit 1(Norwood),197,2,4:patient death,-2,Pt was transplanted for a heart on **/**/****.  He arrested and was placed on ECMO and subsequently died on **/**/****.
+567,0,71,33,,0:Baseline,33,,4:patient death,-2,no comment
+230,0,72,22,,1:visit 1(Norwood),22,,4:patient death,-2,"On **/**/****, the baby was decannulated from ECMO and extubated
+  subsequently at mom's request.  He expired   on **/**/****.
+"
+413,0,51,47,,1:visit 1(Norwood),47,,4:patient death,-2,Patient died at home in his sleep
+123,0,108,105,,1:visit 1(Norwood),66,2,4:patient death,-2,Pt expired in OSH on **/**/****
+379,0,3,3,,0:Baseline,3,,4:patient death,-2,the patient expired in the operation room for the Stage 1 surgery.
+521,0,99,84,,1:visit 1(Norwood),84,2,4:patient death,-2,-9
+278,0,1159,1139,1,4:visit 4 (14 months),432,-2,4:patient death,-2,Subject's exact date of death is unknown.  Cardiologist knows subject is deceased but no information has been able to be gathered.
+270,0,459,393,,3:visit 3 (12 months),164,2,4:patient death,-2,"Patient had stage 2 at an outside hospital.  After stage 2, he had multiple complications and died on **/**/****."
+568,0,1014,1014,2,-1:Never Randomized,,-2,3:Patient lost to follow-up,-2,"Patient was withdrawn from Observational cohort, due to being lost to follow-up."
+591,0,98,98,,1:visit 1(Norwood),98,2,4:patient death,-2,-1
+812,0,892,887,1,4:visit 4 (14 months),527,-2,4:patient death,-2,Patient died **/**/**** per deceased information in CardioIMS.
+426,0,169,168,,2:visit 2 (stage II),168,2,4:patient death,-2,withdrawal from care due to severe AVVR insufficiency and heart failure
+387,0,488,488,1,3:visit 3 (12 months),167,2,1:Family withdrew patient from trial,-2,"pts mom wanted to opt out of the study. They are a military family (dad is in Iraq), with a new baby at the time and it is too much for the mother
+
+"
+866,0,775,775,2,-1:Never Randomized,,-2,3:Patient lost to follow-up,-2,-1
+885,0,744,719,1,4:visit 4 (14 months),401,-2,4:patient death,-2,Patient died
+336,0,790,790,2,-1:Never Randomized,,-2,3:Patient lost to follow-up,-2,-1
+518,0,141,140,,2:visit 2 (stage II),140,2,4:patient death,-2,none
+870,0,735,735,2,-1:Never Randomized,,-2,3:Patient lost to follow-up,-2,-1
+432,0,21,19,,1:visit 1(Norwood),19,2,4:patient death,-2,N/A
+748,0,685,685,2,-1:Never Randomized,,-2,4:patient death,-2,"No additional cause of death information is available, as an autopsy was not performed."
+654,0,643,643,2,-1:Never Randomized,,-2,3:Patient lost to follow-up,-2,-1
+817,0,480,202,1,2:visit 2 (stage II),202,-2,4:patient death,-2,Patient is deceased and was never withdrawn from trial by previous SC.
+261,0,591,591,2,-1:Never Randomized,,-2,3:Patient lost to follow-up,-2,Patient has not been seen since **/**/****.
+285,0,302,298,1,2:visit 2 (stage II),146,-2,4:patient death,-2,
+90,0,73,69,1,1:visit 1(Norwood),69,2,4:patient death,-2,NONE
+743,0,121,115,1,2:visit 2 (stage II),108,-2,4:patient death,-2,none
+215,0,33,31,1,1:visit 1(Norwood),31,2,4:patient death,-2,NONE
+311,0,135,129,1,1:visit 1(Norwood),25,-2,4:patient death,-2,none
+164,0,486,227,1,2:visit 2 (stage II),26,-2,4:patient death,-2,n/a
+185,0,139,134,1,2:visit 2 (stage II),134,-2,4:patient death,-2,-1
+658,0,1158,1158,1,2 years,805,-2,1:Family withdrew patient from trial,-2,The family refused to answer questions regarding subjects' annual medical history and want to withdraw him from the study.
+307,0,260,257,,2:visit 2 (stage II),257,2,4:patient death,-2,parents withdrew life support
+747,0,62,53,,1:visit 1(Norwood),43,,4:patient death,-2,The patient had persistent renal failure. The family decided to withdraw his resp support
+108,0,29,28,,1:visit 1(Norwood),28,,4:patient death,-2,none
+590,0,9,5,,1:visit 1(Norwood),5,2,4:patient death,-2,none
+574,0,218,217,,1:visit 1(Norwood),206,2,4:patient death,-2,None
+110,0,90,72,,0:Baseline,72,2,4:patient death,-2,None
+73,0,997,390,2,-1:Never Randomized,,-2,4:patient death,-2,None
+607,0,251,251,,2:visit 2 (stage II),251,2,4:patient death,-2,None
+192,0,43,40,,0:Baseline,40,2,4:patient death,-2,none
+500,0,15,12,,0:Baseline,12,2,4:patient death,-2,None
+734,0,143,138,,1:visit 1(Norwood),27,2,4:patient death,-2,The patient died suddenly.
+414,0,475,473,1,4:visit 4 (14 months),422,-2,4:patient death,-2,None
+511,0,1661,472,1,3:visit 3 (12 months),365,-2,4:patient death,-2,none
+439,0,109,107,1,2:visit 2 (stage II),106,2,4:patient death,-2,none
+19,0,162,36,,1:visit 1(Norwood),36,,4:patient death,-2,Passed away from bradycardia thought to be secondary to aspiration
+354,0,28,26,,1:visit 1(Norwood),24,,4:patient death,-2,None
+265,0,211,209,1,2:visit 2 (stage II),208,-2,4:patient death,-2,none
+649,0,90,86,,1:visit 1(Norwood),52,,4:patient death,-2,NONE
+903,0,697,103,,-1:Never Randomized,103,1,4:patient death,-2,pt died
+338,0,600,176,,-1:Never Randomized,10,1,4:patient death,-2,patient died
+515,0,314,185,,0:Baseline,185,-1,4:patient death,-2,PATIENT DID NOT RECEIVE NORWOOD
+875,0,25,6,,1:visit 1(Norwood),6,2,4:patient death,-2,PATIENT DIED IN OR UNDERGOING NORWOOD PROCEDURE
+384,0,15,14,,1:visit 1(Norwood),14,2,4:patient death,-2,PATIENT DIED AFTER A HYPOTENSIVE EPISODE
+887,0,65,39,,1:visit 1(Norwood),39,2,4:patient death,-2,PATIENT DIED ON **/**/**** POST NORWOOD PROCEDURE AFTER EXTENSIVE PLEURAL EFFUSIONS/DRAINAGE LEADING TO DECOMPENSATION AND ULTIMATELY DEATH.
+694,0,1260,585,1,3:visit 3 (12 months),407,2,4:patient death,-2,CHILD WAS REMOVED FROM PARENT'S CUSTODY -DSS INVOLVED. SEE FORM LEVEL COMMENTS.
+138,0,382,139,1,1:visit 1(Norwood),64,-2,4:patient death,-2,"patied died on **/**/****, AE was reported and entered into adept"
+798,0,64,60,1,1:visit 1(Norwood),36,2,4:patient death,-2,PT DIED **/**/****
+767,0,846,12,,-1:Never Randomized,12,2,4:patient death,-2,Patient was not randomized but entered into the observation phase.  He expired on **/**/**** and was withdrawn.
+877,0,14,13,,1:visit 1(Norwood),13,,4:patient death,-2,patient expired following cardiac arrest in the hospital.
+563,0,91,81,,1:visit 1(Norwood),79,,4:patient death,-2,none
+96,0,28,11,,0:Baseline,11,,4:patient death,-2,none
+538,0,48,14,,0:Baseline,14,2,4:patient death,-2,nonr
+163,0,120,16,,0:Baseline,16,2,4:patient death,-2,none
+838,0,916,13,2,-1:Never Randomized,,-2,4:patient death,-2,na
+236,0,909,580,2,-1:Never Randomized,,-2,4:patient death,-2,na
+586,0,849,241,2,-1:Never Randomized,,-2,4:patient death,-2,na
+178,0,808,19,2,-1:Never Randomized,,-2,4:patient death,-2,na
+79,0,785,61,2,-1:Never Randomized,,-2,4:patient death,-2,na
+198,0,645,100,2,-1:Never Randomized,,-2,4:patient death,-2,na
+295,0,1503,284,2,-1:Never Randomized,,-2,3:Patient lost to follow-up,-2,None
+827,0,625,267,2,-1:Never Randomized,,-2,4:patient death,-2,N/A
+255,0,481,50,2,-1:Never Randomized,,-2,4:patient death,-2,N/A
+765,0,364,348,2,-1:Never Randomized,,-2,4:patient death,-2,N/A
+370,0,603,508,,4:visit 4 (14 months),508,2,4:patient death,-2,Presented in outside ER with respiratory distress and severe RV dysfunction and died **/**/****
+531,0,72,67,,1:visit 1(Norwood),67,2,4:patient death,-2,Pt died on **/**/**** - parent withdrawal of support.
+852,0,17,13,,1:visit 1(Norwood),13,2,4:patient death,-2,Pt. died **/**/****
+856,0,7,6,,1:visit 1(Norwood),6,2,4:patient death,-2,pt died **/**/**** Postop day # 2
+459,0,96,96,,2:visit 2 (stage II),96,2,4:patient death,-2,patient died **/**/**** secondary to RV failure after surgery for branch PA stenosis
+272,0,174,170,,1:visit 1(Norwood),170,2,4:patient death,-2,Patient died **/**/**** after parental withdraw from support
+269,0,138,39,,-1:Never Randomized,13,1,4:patient death,-2,Patient died at out of state ER
+124,0,79,79,,1:visit 1(Norwood),27,2,4:patient death,-2,sudden unwitnessed death in crib at home on **/**/****
+111,0,209,192,,2:visit 2 (stage II),192,2,4:patient death,-2,patient died **/**/**** awaiting transplant
+193,0,42,40,,1:visit 1(Norwood),40,2,4:patient death,-2,Patient died on **/**/**** in the ER after presenting in extremis
+130,0,440,439,1,3:visit 3 (12 months),165,-2,1:Family withdrew patient from trial,-2,Family did not want to travel to center for visit 4 follow-up despite hotel and transportation arranged for their family.
+98,0,94,88,,2:visit 2 (stage II),88,2,4:patient death,-2,Parents withdrew support
+862,0,128,123,,2:visit 2 (stage II),79,2,4:patient death,-2,patient died suddenly at home on **/**/****
+395,0,69,54,,1:visit 1(Norwood),54,2,4:patient death,-2,died of presumed sepsis at outside hospital
+256,0,76,74,,1:visit 1(Norwood),74,2,4:patient death,-2,expired **/**/**** at 2238
+901,0,186,186,1,1:visit 1(Norwood),154,2,4:patient death,-2,patient died **/**/**** secondary to RSV bronchiolitis
+462,0,105,104,1,1:visit 1(Norwood),32,2,4:patient death,-2,Sepsis
+65,0,99,79,1,1:visit 1(Norwood),18,2,4:patient death,-2,patient died **/**/**** of progressive RV dysfunction
+863,0,420,414,1,3:visit 3 (12 months),414,-2,4:patient death,-2,Patient died in hospital secondary to severe sepsis on **/**/****
+583,0,197,195,1,2:visit 2 (stage II),22,-2,4:patient death,-2,patient died at home **/**/****. Body was taker by the coroner - no autopsy
+647,0,140,30,,1:visit 1(Norwood),30,,4:patient death,-2,Patient death
+455,0,1452,3,1,0:Baseline,3,-2,99:Other,patient never had Norwood surgery,None
+680,0,2067,1667,1,5 years,1497,-2,4:patient death,-2,"Cause of death description:  Progressive pleural effusion, refractory to medical therapy and subsequent cardiorespiratory failure."
+382,0,460,455,,4:visit 4 (14 months),447,2,1:Family withdrew patient from trial,-2,"Mother verbally requested to withdraw from study, unable to complete study visit 4.  Family cancelled 14 month appointments several times."
+554,0,290,282,,2:visit 2 (stage II),282,2,4:patient death,-2,Multiorgan failure.  Not a transplant candidate.  Pt family/MD agree withdrawl of support.
+664,0,98,94,,1:visit 1(Norwood),94,2,4:patient death,-2,-1
+698,0,461,438,1,4:visit 4 (14 months),433,-2,4:patient death,-2,SAE submitted.  See SAE R200/201.
+49,0,488,384,,-1:Never Randomized,384,1,4:patient death,-2,death **/**/****
+718,0,98,45,,1:visit 1(Norwood),45,,4:patient death,-2,-1
+864,0,750,725,,4:visit 4 (14 months),725,2,4:patient death,-2,death-resp. failure
+349,0,22,22,,-1:Never Randomized,22,1,4:patient death,-2,death
+546,0,39,33,,1:visit 1(Norwood),18,,4:patient death,-2,pt. expired
+727,0,209,98,,1:visit 1(Norwood),20,,4:patient death,-2,pt. expired
+622,0,23,14,,1:visit 1(Norwood),13,,4:patient death,-2,-1
+14,0,1479,1425,1,3 years,1064,-2,4:patient death,-2,none
+479,0,98,22,,1:visit 1(Norwood),22,,4:patient death,-2,pt. expired
+357,0,17,15,,1:visit 1(Norwood),15,,4:patient death,-2,pt. died
+917,0,50,12,,1:visit 1(Norwood),12,,4:patient death,-2,pt. death
+346,0,366,187,,-1:Never Randomized,187,1,4:patient death,-2,death
+746,0,404,404,2,-1:Never Randomized,,-2,4:patient death,-2,death
+408,0,121,16,,1:visit 1(Norwood),16,2,4:patient death,-2,death
+799,0,265,107,,1:visit 1(Norwood),107,2,4:patient death,-2,pt. expired **/**/****
+43,0,20,12,,-1:Never Randomized,12,2,4:patient death,-2,pt. expired prior to discharge
+566,0,130,130,,2:visit 2 (stage II),130,2,4:patient death,-2,deceased
+238,0,152,32,,-1:Never Randomized,32,1,4:patient death,-2,death
+461,0,416,416,2,-1:Never Randomized,,-2,4:patient death,-2,death
+601,0,15,11,,1:visit 1(Norwood),11,2,4:patient death,-2,death
+34,0,547,547,2,-1:Never Randomized,,-2,4:patient death,-2,death
+609,0,9,8,,1:visit 1(Norwood),8,2,4:patient death,-2,death
+460,0,124,121,,-1:Never Randomized,121,2,4:patient death,-2,post op death hemi fontan
+731,0,9,9,,0:Baseline,9,2,99:Other,Subject had no Norwood; excluded from analysis,"Pt. went to OR for Norwood, chest open only to find infection/pus.  Chest closed and surgery was cancelled.  Subject was withdrawn from study."
+657,0,48,48,1,1:visit 1(Norwood),48,2,4:patient death,-2,multi organ failure post heart transplant
+691,0,9,9,,1:visit 1(Norwood),9,2,4:patient death,-2,expired
+244,0,65,65,2,-1:Never Randomized,,-2,4:patient death,-2,death
+368,0,384,384,2,-1:Never Randomized,,-2,4:patient death,-2,death
+596,0,29,29,,1:visit 1(Norwood),25,2,4:patient death,-2,"pt. expired at home on **/**/****-EMS callled, CPR performed"
+915,0,23,19,,1:visit 1(Norwood),19,2,4:patient death,-2,pt. expired secondary to sepsis
+739,0,17,16,,1:visit 1(Norwood),16,2,4:patient death,-2,pt. death **/**/****
+226,0,65,64,,1:visit 1(Norwood),60,2,4:patient death,-2,pt. death
+330,0,222,212,1,2:visit 2 (stage II),180,-2,4:patient death,-2,
+865,0,5,5,1,0:Baseline,5,2,4:patient death,-2,early post op death
+15,0,280,104,1,1:visit 1(Norwood),49,-2,4:patient death,-2,no autopsy
+219,0,41,40,,1:visit 1(Norwood),40,,4:patient death,-2,-1
+860,0,92,10,,1:visit 1(Norwood),10,,4:patient death,-2,-1
+900,0,11,6,,1:visit 1(Norwood),6,2,4:patient death,-2,PT. EXPIRED
+855,0,127,80,,1:visit 1(Norwood),80,2,4:patient death,-2,PT. EXPIRED
+499,0,452,23,,-1:Never Randomized,23,2,4:patient death,-2,NONE
+290,0,450,4,,-1:Never Randomized,4,2,4:patient death,-2,NONE
+841,0,62,57,,1:visit 1(Norwood),57,2,4:patient death,-2,PT. EXPIRED
+48,0,377,6,,-1:Never Randomized,6,2,4:patient death,-2,NONE
+535,0,128,127,,1:visit 1(Norwood),38,2,4:patient death,-2,PT. EXPIRED **/**/****
+240,0,7,7,,1:visit 1(Norwood),7,2,4:patient death,-2,SEE SAE EVEENT 01; DEATH RELATED TO PROGRESSIVE HYPOTENSION
+89,0,64,11,,1:visit 1(Norwood),11,2,4:patient death,-2,PT. EXPIRED **/**/****.
+340,0,403,7,,-1:Never Randomized,7,1,4:patient death,-2,NONE
+840,0,55,53,,1:visit 1(Norwood),53,2,4:patient death,-2,NONE
+224,0,20,17,,1:visit 1(Norwood),17,2,4:patient death,-2,NONE
+669,0,323,3,,-1:Never Randomized,3,1,4:patient death,-2,PT. EXPIRED IN OR RELATED TO CORONARY INSUFFICIENCY.
+170,0,121,114,1,1:visit 1(Norwood),114,2,4:patient death,-2,NONE
+480,0,182,175,,2:visit 2 (stage II),175,2,4:patient death,-2,R200 completed and submitted on **/**/****.
+145,0,611,510,,4:visit 4 (14 months),465,2,4:patient death,-2,none
+484,0,128,44,,1:visit 1(Norwood),44,2,4:patient death,-2,Life support withdrawn per parents' request.  Patient subsequently passed shortly thereafter on **/**/****.
+835,0,141,48,,1:visit 1(Norwood),48,2,4:patient death,-2,Life support withdrawn per parents' request. Patient subsequently passed on **/**/****.
+465,0,66,40,,1:visit 1(Norwood),40,2,4:patient death,-2,Pt died on **/**/**** after life support was withdrawn per parent's request.
+155,0,244,63,,1:visit 1(Norwood),63,2,4:patient death,-2,none
+794,0,196,22,,1:visit 1(Norwood),22,2,4:patient death,-2,none
+667,0,81,68,,1:visit 1(Norwood),68,2,4:patient death,-2,"After repeated attempts to wean from the ventilator, the family chose to withdraw support.  This patient expired on **/**/****."
+59,0,137,81,,1:visit 1(Norwood),26,2,4:patient death,-2,none
+392,0,153,152,,2:visit 2 (stage II),152,2,4:patient death,-2,Patient died on **/**/**** while hospitalized. Required protocol forms/paperwork to be submitted.
+232,0,110,12,,0:Baseline,12,2,4:patient death,-2,Patient expired.
+889,0,9,8,1,0:Baseline,8,2,4:patient death,-2,"Developed AV block in OR, required CPR and initiation of ECMO.  CT revealed intracranial hemorrhage.  Patient withdrawn from ECMO and expired."
+505,0,590,128,,1:visit 1(Norwood),128,2,4:patient death,-2,Expired
+677,0,42,37,,1:visit 1(Norwood),37,,4:patient death,-2,Patient expired.
+755,0,30,30,,1:visit 1(Norwood),30,2,4:patient death,-2,"Hypotension, patient expired."
+469,0,9,7,,0:Baseline,7,2,4:patient death,-2,Patient continued to do poorly and family requested that support be removed.
+99,0,42,30,,1:visit 1(Norwood),30,2,4:patient death,-2,Patient became hypotensive and began to desaturate.  Developed cardiac arrest and CPR initiated.  Patient did not respond to resuscitative efforts.
+592,0,77,17,,1:visit 1(Norwood),17,,4:patient death,-2,Expired
+555,0,660,658,,4:visit 4 (14 months),658,2,4:patient death,-2,Expired **/**/****.
+506,0,48,44,,1:visit 1(Norwood),44,2,4:patient death,-2,Patient expired **/**/****
+348,0,76,74,,1:visit 1(Norwood),74,2,4:patient death,-2,patient was getting a bath and suddenly coded.
+824,0,126,4,,0:Baseline,4,2,4:patient death,-2,Patient expired.
+425,0,144,16,,1:visit 1(Norwood),16,2,4:patient death,-2,Patient expired **/**/****
+613,0,257,77,,2:visit 2 (stage II),77,2,4:patient death,-2,Patient was transferred from *** Children's hospital with complete cardio-pulmonary collapse.  ECMO was initiated with poor neuro results.
+780,0,166,132,,1:visit 1(Norwood),88,2,4:patient death,-2,Ptient admitted to another service for PICC line insertion.  Patient coded during procedure and expired.
+911,0,129,129,1,1:visit 1(Norwood),129,2,4:patient death,-2,Patient expired.
+640,0,287,251,,1:visit 1(Norwood),251,2,4:patient death,-2,Patient died **/**/****
+116,0,60,48,,1:visit 1(Norwood),48,2,4:patient death,-2,Patient expired on **/**/**** during Norwood hospitalization.
+545,0,197,153,,1:visit 1(Norwood),153,2,4:patient death,-2,Pt died on **/**/****.
+328,0,81,52,1,1:visit 1(Norwood),52,2,4:patient death,-2,Patient expired on **/**/****
