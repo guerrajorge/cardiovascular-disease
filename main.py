@@ -7,49 +7,14 @@ from keras.models import Sequential
 from keras.layers import Dense
 import numpy as np
 import gc
-import matplotlib.pyplot as plt
-import itertools
 from sklearn.metrics import confusion_matrix
-
+from utils.logger import logger_initialization
+import argparse
+import logging
 
 # seed for numpy and sklearn
 random_state = 1
 np.random.seed(random_state)
-
-
-def plot_confusion_matrix(cm, classes,
-                          normalize=False,
-                          title='Confusion matrix',
-                          cmap=plt.cm.Blues):
-    """
-    This function prints and plots the confusion matrix.
-    Normalization can be applied by setting `normalize=True`.
-    """
-    if normalize:
-        cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
-        print("Normalized confusion matrix")
-    else:
-        print('Confusion matrix, without normalization')
-
-    print(cm)
-
-    plt.imshow(cm, interpolation='nearest', cmap=cmap)
-    plt.title(title)
-    plt.colorbar()
-    tick_marks = np.arange(len(classes))
-    plt.xticks(tick_marks, classes, rotation=45)
-    plt.yticks(tick_marks, classes)
-
-    fmt = '.2f' if normalize else 'd'
-    thresh = cm.max() / 2.
-    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
-        plt.text(j, i, format(cm[i, j], fmt),
-                 horizontalalignment="center",
-                 color="white" if cm[i, j] > thresh else "black")
-
-    plt.tight_layout()
-    plt.ylabel('True label')
-    plt.xlabel('Predicted label')
 
 
 def load_data():
@@ -75,6 +40,15 @@ def load_data():
 
 
 def main():
+    # get the the path for the input file argument
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-l", "--log", dest="logLevel", choices=['DEBUG', 'INFO', 'ERROR'], type=str.upper,
+                        help="Set the logging level")
+    args = parser.parse_args()
+
+    logger_initialization(log_level=args.logLevel)
+    logging.getLogger('regular').info('running SVR model')
+    logging.getLogger('regular').info('')
 
     dataset = load_data()
 
@@ -94,21 +68,16 @@ def main():
 
     train, test = train_test_split(dataset, test_size=0.33, random_state=42)
 
-    print('training set shape = {0}'.format(train.shape))
-    print('testing set shape = {0}'.format(test.shape))
-
-    train.fillna(0)
-    test.fillna(0)
+    msg = 'training set shape = {0}'.format(train.shape)
+    logging.getLogger('regular').info(msg)
+    msg = 'testing set shape = {0}'.format(test.shape)
+    logging.getLogger('regular').info(msg)
+    logging.getLogger('regular').info('')
 
     y_train = train['death']
     x_train = train.drop(['death'], axis=1)
     y_test = test['death']
     x_test = test.drop(['death'], axis=1)
-
-    print('count class 0 training = {0}'.format(len(y_train[y_train == 0])))
-    print('count class 1 training = {0}'.format(len(y_train[y_train == 1])))
-    print('count class 0 testing = {0}'.format(len(y_test[y_test == 0])))
-    print('count class 1 testing = {0}'.format(len(y_test[y_test == 1])))
 
     min_max_scaler = preprocessing.MinMaxScaler()
     np_scaled = min_max_scaler.fit_transform(x_train)
@@ -129,30 +98,34 @@ def main():
 
     # Compile model
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-    model.fit(x_train, y_train, epochs=150, batch_size=5, verbose=1)
+    # Keras can separate a portion of your training data into a validation dataset and evaluate the performance of your
+    # model on that validation dataset each epoch. You can do this by setting the validation_split
+    model.fit(x_train.values, y_train.values, validation_split=0.33, epochs=150, batch_size=5, verbose=1)
+    scores = model.evaluate(x_test.values, y_test.values, verbose=0)
 
-    scores = model.evaluate(x_test, y_test, verbose=0)
-    print("accuracy: {0:.4}\n".format(scores[1] * 100))
+    y_pred = model.predict_classes(x_test.values).flatten()
 
-    y_pred = model.predict_proba(x_test)
-    y_pred = y_pred.argmax(axis=-1)
-    
-    # Compute confusion matrix
-    cnf_matrix = confusion_matrix(y_test, y_pred)
-    np.set_printoptions(precision=2)
+    msg = 'Surviving count data testing = {0}'.format(len(y_test[y_test == 0]))
+    logging.getLogger('regular').info(msg)
+    msg = 'Surviving count data testing = {0}'.format(len(y_test[y_test == 1]))
+    logging.getLogger('regular').info(msg)
+    logging.getLogger('regular').info('')
 
-    # Plot non-normalized confusion matrix
-    class_names = ['Deaths, Survivals']
-    plt.figure()
-    plot_confusion_matrix(cnf_matrix, classes=class_names,
-                          title='Confusion matrix, without normalization')
+    # Compute and show confusion matrix
+    true_positive, false_positive, false_negative, true_negative = confusion_matrix(y_true=y_test.values,
+                                                                                    y_pred=y_pred).flatten()
 
-    # Plot normalized confusion matrix
-    plt.figure()
-    plot_confusion_matrix(cnf_matrix, classes=class_names, normalize=True,
-                          title='Normalized confusion matrix')
+    msg = 'model accuracy: {0:.4}'.format(scores[1] * 100)
+    logging.getLogger('regular').info(msg)
+    logging.getLogger('regular').info('')
 
-    plt.show()
+    logging.getLogger('regular').info('confusion matrix\n')
+    row = '{0: <10} {1: <10} {2}'.format('', 'Survival', 'Death')
+    logging.getLogger('regular').info(row)
+    row = '{0: <10} {1: <10} {2}'.format('Survival', true_positive, false_positive)
+    logging.getLogger('regular').info(row)
+    row = '{0: <10} {1: <10} {2}\n'.format('Death', false_negative, true_negative)
+    logging.getLogger('regular').info(row)
 
 
 if __name__ == '__main__':
